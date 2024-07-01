@@ -185,9 +185,9 @@ $route['register'] = 'auth/register';
 $route['logout'] = 'auth/logout';
 
 
-$route['api_login'] = 'User/login';
-$route['api_logout'] = 'User/logout';
-
+$route['api_login'] = 'Users/login';
+$route['api_logout'] = 'Users/logout';
+$route['register'] = 'Users/register';
 
 $route['test'] = 'Main/test';
 ?>
